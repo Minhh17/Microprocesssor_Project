@@ -1,4 +1,4 @@
-set(app_src sensor.c)
+set(app_src face_recognition.c)
 set(pre_req log driver)        # log or driver is component of SDK
 idf_component_register(SRCS ${app_src}
                     INCLUDE_DIRS "."
